@@ -3,8 +3,8 @@
 Simple multiprocessing benchmarking tool for [okerr](https://okerr.com/) server.
 
 - [Okerr main website](https://okerr.com/)
-- [Okerr-server source code repository](gitlab.com/yaroslaff/okerr-dev/)
-- [Okerr client (okerrupdate) repositoty](https://gitlab.com/yaroslaff/okerrupdate)
+- [Okerr-server source code repository](gitlab.com/yaroslaff/okerr-dev/) and [okerr server wiki doc](https://gitlab.com/yaroslaff/okerr-dev/wikis/)
+- [Okerr client (okerrupdate) repositoty](https://gitlab.com/yaroslaff/okerrupdate) and [okerrupdate wiki doc](https://gitlab.com/yaroslaff/okerrupdate/wikis/)
 
 Example usage:
 ~~~shell script
