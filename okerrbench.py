@@ -114,6 +114,7 @@ def main():
 
     print("Using okerrupdate version:", okerrupdate.__version__)
     project = okerrupdate.OkerrProject(textid=args.textid, url=args.url, direct=True, secret=args.secret)
+    print(project, args.textid, project.textid)
     if args.quiet:
         project.log.setLevel(logging.ERROR)
 
@@ -136,7 +137,6 @@ def main():
             p.join()
 
         passed = time.time() - start
-        print("statistics:")
         sum = {
             'OK': 0,
             'requests_exception': 0,
@@ -155,9 +155,10 @@ def main():
         sum['processed_rate'] = "{:.3f} req/sec".format(sum['processed'] / passed)
         sum['OK_rate'] = "{:.3f} req/sec".format(sum['OK'] / passed)
 
+        print("Statistics:\n---")
         for k, v in sum.items():
             print("{}: {}".format(k,v))
-
+        print()
 
     else:
         print("Need --prepare or --test")
