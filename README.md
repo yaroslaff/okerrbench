@@ -8,7 +8,7 @@ Simple multiprocessing benchmarking tool for [okerr](https://okerr.com/) server.
 
 Example usage:
 ~~~shell script
-# warm-up
+# warm-up (optional. but first test without warmup could be slow, 2nd test and furhter are OK)
 ./okerrbench.py --prepare --url http://dev.okerr.com/ -i bench -S 'zzz' --indicators 200 -q
 
 # main benchmark
