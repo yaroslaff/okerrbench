@@ -11,8 +11,12 @@ Example usage:
 ./okerrbench.py -q --test --url http://dev.okerr.com/ -i bench -S 'zzz' --indicators 10 --process 20 --shard --seconds 300 
 ~~~
 
-## Other okerr resources
+# Other okerr resources
 - [Okerr main website](https://okerr.com/)
-- [Okerr-server source code repository](gitlab.com/yaroslaff/okerr-dev/) and [okerr server wiki doc](https://gitlab.com/yaroslaff/okerr-dev/wikis/)
-- [Okerr client (okerrupdate) repositoty](https://gitlab.com/yaroslaff/okerrupdate) and [okerrupdate wiki doc](https://gitlab.com/yaroslaff/okerrupdate/wikis/)
-- [Okerrbench network server benchmark](https://gitlab.com/yaroslaff/okerrbench)
+- [Okerr-server source code repository](https://github.com/yaroslaff/okerr-dev/) 
+- [Okerr client (okerrupdate) repositoty](https://github.com/yaroslaff/okerrupdate) and [okerrupdate documentation](https://okerrupdate.readthedocs.io/)
+- [Okerrbench network server benchmark](https://github.com/yaroslaff/okerrbench)
+- [Okerr custom status page](https://github.com/yaroslaff/okerr-status)
+- [Okerr JS-powered static status page](https://github.com/yaroslaff/okerrstatusjs)
+- [Okerr network sensor](https://github.com/yaroslaff/sensor)
+
